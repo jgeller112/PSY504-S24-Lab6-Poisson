@@ -1,0 +1,2 @@
+# PSY504-S24-Lab6-Poisson
+PSY504 S24 Lab 6 

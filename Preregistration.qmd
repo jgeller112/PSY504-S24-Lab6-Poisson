@@ -1,0 +1,59 @@
+---
+title: "Prereg_Poisson"
+format: html
+editor: visual
+---
+
+A. Hypotheses:
+
+Describe the (numbered) hypotheses in terms of directional relationships between your (manipulated or measured) variables:
+
+1.  \
+    a.  The number of hours per week that a person spends on the Internet ("WWWHR") will\
+        be predicted by their vocabulary ("WORDSUM"), age ("AGE"), sex ("SEX"), religiosity\
+        ("RELITEN"), political orientation ("POLVIEWS"), and how often they work from home\
+        ("WRKHOME").
+
+B. Methods:
+
+1.  Independent variables with all their levels (see code book)
+
+    a.  Age ("AGE")
+    b.  Sex ("SEX")
+    c.  Religiosity ("RELITEN")
+    d.  Political orientation ("POLVIEWS")
+    e.  Vocabulary ("WORDSUM")
+    f.  How often they work from home ("WRKHOME")
+
+2.  Dependent variables
+
+```         
+a. Number of hours per week that a person spends on the Internet (`WWWHR`)
+```
+
+3.  Indicate where, from whom and how the data will be collected.
+
+    a\. This dataset contains responses from a nationally representative sample of adults in the United States to the "General Social Survey" or "GSS" by the\
+    National Opinion Research Center (University of Chicago). The GSS seeks to\
+    measure social attitudes, religion, education, policy attitudes, and other aspects\
+    of social life. The GSS has been collected annually or biannually since the\
+    1970s. This particular dataset only contains data collected in 2010 through in-\
+    person interviews. Each interview took approximately 1 to 1.5 hours.
+
+C. Analyses:
+
+1.  Describe the analyses that will test each main prediction from the hypotheses section. For *each one* , include:
+
+    a\. the relevant variables and how they are calculated;
+
+    -   All variables are raw, single-item measures
+
+2.  the statistical technique;
+
+    -   You will have decide whether to report Poisson or negative binomial
+
+D. Recommended elements:
+
+1.  The method of missing data handling (e.g., pairwise or listwise deletion, imputation interpolation)
+
+    a\. Listwise deletion

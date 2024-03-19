@@ -1,0 +1,50 @@
+---
+title: "Lab 6: Poisson Lab"
+editor: visual
+execute: 
+  message: false
+  warning: false
+---
+
+# LAB 6 - Poisson
+
+1.  To complete this lab:
+
+-   Load packages
+
+```{r}
+library(MASS) # must be loaded before tidy or chaos will ensue
+library(tidyverse)
+library(marginaleffects)
+library(ggeffects)
+library(easystats)
+```
+
+-   Download the dataset:
+
+```{r}
+data <- read_delim("https://raw.githubusercontent.com/jgeller112/psy504-advanced-stats/main/slides/Poisson/data/2010.csv")
+
+```
+
+-   Read the preregistration document in the repo (preregis.qmd)
+
+    -   Look at the `2010 Dataset Coder.pdf` for information about vars and missing labels.
+
+-   In a separate .qmd document:
+
+    -   Determine what test to run: Poisson or negative binomial (include all necessary code and checks to support this decision).
+
+    -   Write up your results in a paragraph or two making sure you discuss:
+
+        -   Missing data information (how much is there overall? Per variable?)
+
+        -   The test you ran and why
+
+        -   Model fit
+
+            -   A discussion of the effects in the model (include all relevant statistics)
+
+        -   A figure focusing on only one of the predictors in each model (i.e., the one that is most interesting to you)
+
+-   Upload the .qmd and html (Results + Figures) to Github
